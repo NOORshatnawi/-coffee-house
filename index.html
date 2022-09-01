@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe House</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <style>
+            #section-left {
+    overflow:hidden;
+}
+#section-right {
+    width:950px;
+    margin-left:30px;
+    float:right;
+}
+section {
+    /* border:1px solid #999; */
+    height:489px;
+}
+        </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a class="active" href="#">Order Page </a></li>
+            <li><a href="file:///C:/Users/user/Desktop/Corrective%20JAVA/menu.html">Menu </a></li>
+            <li><a href="#">Contact</a></li>
+            <li style="float:right"><a href="#">About</a></li>
+        </ul>
+    </header>
+    
+    <section id="section-right" class="Customer_Order">
+
+      
+    </section>
+    <section id="section-left"> <form id="coffeForm" style="background-color: #F5E8C7;width: 527px;margin-left: 2%;">
+        <input type="hidden" id="ids" name="ids" value="">
+        <label for="fname" style="padding-right: 16px;margin-bottom: 6px;margin-left: 2%;" class="name"> Name</label>
+        <input type="text" id="fname" name="name" placeholder="Your name.."><br>
+
+        <p style="margin-bottom: -6px;margin-top: 17px;margin-left: 6%;" class="typeofdrinks"><h4 style="margin-left: 2%;">Type Of drink
+        </h4><br>
+        <span style="margin-left: 10%; ">
+              <input type="checkbox" id="html" name="fav_language" value="Hot">
+              <label for="html">Hot Drinks </label><br>
+              <input type="checkbox" id="css" name="fav_language" value="Cold"
+                style=" margin-left:10%; margin-bottom: 19px;">
+              <label for="css">Cold Drinks </label><br>
+        </span>
+        <label for="country" style="padding-right: 14px;margin-bottom: 25px;margin-left: 2%;"> drinks</label>
+        <select id="drinks" name="drinks"><br>
+            <option value="mocha">mocha</option><br>
+            <option value="latte">latte</option><br>
+            <option value="espresso">espresso</option><br>
+            <option value="americano">americano</option><br>
+            <option value="hot chocolate">hot chocolate</option><br>
+        </select><br>
+        <label for="country" style=" padding-right: 27px;margin-bottom: 25px;margin-left: 2%;">Size</label>
+        <select id="sizes" name="sizes"><br>
+            <option value="Small">Small </option><br>
+            <option value="Medium">Medium</option><br>
+            <option value="Large">Large</option><br>
+        </select><br>
+        <label for="country" style="padding-right: 26px;margin-bottom: 25px;margin-left: 2%;">Milk</label>
+        <select id="milk" name="milk"><br>
+            <option value="low fat">low fat</option><br>
+            <option value="Full fat">Full fat</option><br>
+            <option value="Organic">Organic</option><br>
+            <option value="none">none</option><br>
+        </select>
+        <br> <br> <br> <br>
+
+        <input type="submit" value="Submit" class="submit">
+        
+
+    </form>
+</section>
+
+   
+    
+
+
+    <footer style="  text-align: center;
+    padding-top: 3px;
+    padding-bottom: 0%;
+    background-color:#333;
+    color: white;
+    margin-top: 117px;
+    width: 100%;
+    height: 20%;">
+        <p> &copy; Created by Nour Mohammad Shatnawi<br>
+        <h5>Follow us on social media platforms </h5>
+        <a href="https://www.facebook.com/profile.php?id=100013057339250" style="font-size: 30px;color:white">
+            <p class="fa-brands fa-facebook"></p>
+        </a>
+        <a href="https://www.linkedin.com/in/noor-moh-shatnawi-57a461244/" style="font-size: 30px;color:white">
+            <p class="fa-brands fa-linkedin"></p>
+        </a>
+        <a href="https://github.com/NOORshatnawi/" style="font-size: 30px;color:white">
+            <p class="fa-brands fa-github"> </p>
+        </a>
+        </p>
+    </footer>
+
+    <script src="./JAVA.js"></script>
+
+</body>
+
+</html>

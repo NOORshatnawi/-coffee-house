@@ -1,0 +1,297 @@
+body {
+    background-image: url("19.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/* start of the Navbars */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #F9B208;
+}
+
+/* End of the Navbars */
+
+/* Order Form start */
+input[type=text],
+select {
+    width: 70%;
+    padding: 2% 4%;
+    margin: 2% 4%;
+    display: inline-block;
+    border: 1px solid #F9B208;
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #F9B208;
+    padding: 4% 8%;
+    margin: 2% 10% -1% 23%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20%;
+    margin-left: 16%;
+
+
+}
+
+input[type=submit]:hover {
+    background-color: #FEDB39;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+div {
+    border-radius: 1%;
+    background-color: #F5E8C7;
+    padding: 5%;
+    margin-top: 1%;
+    width: 30%;
+    opacity: 0.9;
+    padding-right: 1%;
+    margin-right: 2%;
+    height: 60%;
+}
+
+
+
+/* End of the Form */
+/* Footer start  */
+
+/* footer {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 0%;
+    background-color:red;
+    color: white;
+    margin-top: 200px;
+    width: 50%;
+    height: 20%;
+} */
+
+
+/* Meeeeeeeeeeeeeeeeeeeeeeeeeediaaaa 
+
+
+
+
+
+
+*/
+
+@media only screen and (max-width: 480px) {
+
+
+    .header {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        min-width: 50%;
+        margin-bottom: 0%;
+
+
+    }
+
+    form {
+
+
+        width: 20px;
+    }
+
+    .name {
+
+        font-size: smaller;
+    }
+
+    input [type=text],
+    select {
+        width: 20%;
+        font-size: smaller;
+    }
+
+    input[type=submit] {
+        width: 20%;
+        font-size: smaller;
+
+
+
+    }
+
+    Form {
+
+        width: 5%;
+    }
+
+
+
+    footer {
+
+
+        background-color: #333;
+        min-width: 50%;
+        text-align: center;
+        margin-bottom: -10px;
+        margin-top: 10%;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+    .header {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        min-width: 50%;
+        margin-bottom: 0%;
+
+
+    }
+
+    form {
+
+
+        width: 20%;
+    }
+
+    .name {
+
+        font-size: smaller;
+    }
+
+    input [type=text],
+    select {
+        width: 20%;
+        font-size: smaller;
+    }
+
+    input[type=submit] {
+        width: 20%;
+        font-size: smaller;
+
+
+
+    }
+
+    Form {
+
+        width: 5%;
+    }
+
+
+
+    footer {
+
+
+        background-color: #333;
+        min-width: 50%;
+        text-align: center;
+        margin-bottom: -1%;
+        margin-top: 10%;
+    }
+
+}
+
+
+
+
+@media only screen and (width: 820px) {
+
+
+    .header {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        min-width: 50%;
+        margin-bottom: 0%;
+
+
+    }
+
+    form {
+
+
+        width: 40%;
+    }
+
+    .name {
+
+        font-size: smaller;
+    }
+
+    input [type=text],
+    select {
+        width: 40%;
+        font-size: smaller;
+    }
+
+    input[type=submit] {
+        width:40%;
+        font-size: smaller;
+
+
+
+    }
+
+    Form {
+
+        width: 5%;
+    }
+
+
+
+    footer {
+
+
+        background-color: #333;
+        min-width: 50%;
+        text-align: center;
+
+       
+    }
+
+
+
+
+}
